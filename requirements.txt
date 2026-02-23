@@ -1,0 +1,11 @@
+-e .
+websockets>=15.0
+
+# --- Optional (uncomment or use pip install -e ".[dev]" etc.) ---
+# [dev] tests
+# pytest>=7.0
+# pytest-asyncio>=0.23.0
+# pytest-cov>=4.0
+
+# [postgres] outbox backend
+# asyncpg>=0.29.0
