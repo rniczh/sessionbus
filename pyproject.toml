@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "Session bus Python package"
 readme = "README.md"
 requires-python = ">=3.12"
-license = { text = "MIT" }
+license = "MIT"
 authors = [
     { name = "Hong-Sheng Zheng", email = "mathan0203@gmail.com" }
 ]
@@ -20,12 +20,14 @@ dependencies = [
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3.14",
 ]
+
+[project.urls]
+Repository = "https://github.com/rniczh/sessionbus"
 
 [project.optional-dependencies]
 dev = [
